@@ -1,10 +1,10 @@
 import React from 'react'
-import LandingPage from './components/LandingPage'
+import AdminPanel from './components/AdminPanel'
 
 const App = () => {
   return (
     <>
-    <LandingPage />
+     <AdminPanel />
     </>
   )
 }

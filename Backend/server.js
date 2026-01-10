@@ -15,7 +15,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://real-trust-beta.vercel.app/',
+  origin: 'https://real-trust-beta.vercel.app',
   credentials: true
 }));
 app.use(express.json());

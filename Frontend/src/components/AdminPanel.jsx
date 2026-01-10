@@ -280,7 +280,7 @@ const AdminPanel = () => {
                 <div key={client._id} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
                   <div className="flex items-center gap-4 mb-4">
                     <img 
-                      src={`http://localhost:5000/${client.image}`}
+                      src={`https://real-trust-backend-6k06.onrender.com/${client.image}`}
                       alt={client.name}
                       className="w-20 h-20 rounded-full object-cover border-4 border-indigo-100"
                       onError={(e) => {

@@ -240,7 +240,7 @@ const AdminPanel = () => {
               {projects.map(project => (
                 <div key={project._id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
                   <img 
-                    src={`http://localhost:5000/${project.image}`} 
+                    src={`https://real-trust-backend-6k06.onrender.com/${project.image}`} 
                     alt={project.name}
                     className="w-full h-48 object-cover"
                     onError={(e) => {

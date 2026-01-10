@@ -16,9 +16,6 @@ dist/
 build/
 out/
 
-# Uploads (images uploaded by users)
-uploads/
-backend/uploads/
 
 # Logs
 *.log

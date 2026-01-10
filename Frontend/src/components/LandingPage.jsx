@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // ⭐ IMPORTANT: Replace with your deployed backend URL
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://real-trust-backend-6k06.onrender.com/api";
 // For production: const API_URL = 'https://your-backend-url.com/api';
 
 const LandingPage = () => {

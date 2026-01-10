@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Home, Users, FileText, Mail, Plus, Edit, Trash2, X, Menu, LogOut } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://real-trust-backend-6k06.onrender.com/api';
 
 const AdminPanel = () => {
   const [activeTab, setActiveTab] = useState('projects');

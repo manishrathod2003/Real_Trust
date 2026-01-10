@@ -16,6 +16,7 @@ const app = express();
 // ⭐⭐⭐ CORS CONFIGURATION ⭐⭐⭐
 const allowedOrigins = [
   "https://real-trust-beta.vercel.app",
+  "https://real-trust-admin.vercel.app",
   "http://localhost:5173",
   "http://localhost:5174",
   "http://localhost:3000"

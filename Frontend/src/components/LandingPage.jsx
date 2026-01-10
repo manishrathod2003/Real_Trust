@@ -115,7 +115,7 @@ const LandingPage = () => {
         <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <img
-              src="./src/assets/logo.svg"
+              src="/images/logo.svg"
               alt="Real Trust Logo"
               className="w-40 h-10 object-contain"
             />
@@ -157,7 +157,7 @@ const LandingPage = () => {
       >
         {/* Background Image */}
         <img
-          src="./src/assets/hero.svg"
+          src="/images/hero.svg"
           alt="Hero Background"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -266,7 +266,7 @@ const LandingPage = () => {
 
             <div className="absolute top-1/4 left-10 w-72 h-72 rounded-full overflow-hidden shadow-2xl border-8 border-white z-10 bg-white">
               <img
-                src="./src/assets/Ellipse 11.svg"
+                src="/images/Ellipse 11.svg"
                 alt="Professional Realtor"
                 className="w-full h-full object-cover"
               />
@@ -274,7 +274,7 @@ const LandingPage = () => {
 
             <div className="absolute top-7 right-9 w-56 h-56 rounded-full overflow-hidden shadow-2xl border-8 border-white z-20 bg-white">
               <img
-                src="./src/assets/Ellipse 12.svg"
+                src="/images/Ellipse 12.svg"
                 alt="Happy Couple"
                 className="w-full h-full object-cover"
               />
@@ -282,7 +282,7 @@ const LandingPage = () => {
 
             <div className="absolute bottom-6 right-12 w-48 h-48 rounded-full overflow-hidden shadow-2xl border-8 border-white z-20 bg-white">
               <img
-                src="./src/assets/Ellipse 13.svg"
+                src="/images/Ellipse 13.svg"
                 alt="Celebrating Success"
                 className="w-full h-full object-cover"
               />
@@ -303,7 +303,7 @@ const LandingPage = () => {
             <div className="text-center space-y-4 p-6 rounded-xl hover:shadow-xl transition-shadow ">
               <div className="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center mx-auto shadow-lg">
                 <img
-                src="./src/assets/home.svg"
+                src="/images/home.svg"
                 >
                 </img>
               </div>
@@ -320,7 +320,7 @@ const LandingPage = () => {
             <div className="text-center space-y-4 p-6 rounded-xl hover:shadow-xl transition-shadow ">
               <div className="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center mx-auto shadow-lg">
                 <img
-                src="./src/assets/paintbrush-2.svg"
+                src="/images/paintbrush-2.svg"
                 >
                 </img>
               </div>
@@ -335,7 +335,7 @@ const LandingPage = () => {
             <div className="text-center space-y-4 p-6 rounded-xl hover:shadow-xl transition-shadow ">
               <div className="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center mx-auto shadow-lg">
                 <img
-                src="./src/assets/circle-dollar-sign.svg"
+                src="/images/circle-dollar-sign.svg"
                 >
                 </img>
               </div>
@@ -357,7 +357,7 @@ const LandingPage = () => {
       <div className="relative group self-start mt-0">
         <div className="absolute -bottom-4 -left-4 w-12 h-12 border-l-[8px] border-b-[8px] border-orange-500"></div>
         <img
-          src="./src/assets/pexels-brett-sayles-2881232.svg"
+          src="/images/pexels-brett-sayles-2881232.svg"
           alt="Real estate consultation"
           className="w-48 h-36 object-cover shadow-2xl transform transition duration-300 group-hover:scale-105 -mt-8"
         />
@@ -368,7 +368,7 @@ const LandingPage = () => {
       <div className="relative group">
         <div className="absolute -top-2 -right-10 w-16 h-16 border-t-[10px] border-r-[10px] border-blue-600"></div>
         <img
-          src="./src/assets/pexels-andres-ayrton-6578391.svg"
+          src="/images/pexels-andres-ayrton-6578391.svg"
           alt="Property viewing"
           className="w-90 h-64 object-cover shadow-2xl transform transition duration-300 group-hover:scale-105 mt-8"
         />
@@ -378,7 +378,7 @@ const LandingPage = () => {
       <div className="relative group self-end mb-0">
         <div className="absolute -bottom-3 -right-3 w-6 h-6 border-b-[6px] border-r-[6px] border-orange-500"></div>
         <img
-          src="./src/assets/pexels-fauxels-3182834.svg"
+          src="/images/pexels-fauxels-3182834.svg"
           alt="Client consultation"
           className="w-48 h-36 object-cover shadow-2xl transform transition duration-300 group-hover:scale-105 "
         />
@@ -516,7 +516,7 @@ const LandingPage = () => {
         className="relative py-24 bg-cover "
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./src/assets/Rectangle.svg')",
+            "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/Rectangle.svg')",
         }}
       >
         <div className="container mx-auto px-4 text-center text-white relative z-10">
@@ -600,7 +600,7 @@ const LandingPage = () => {
 
             <div className="flex items-center gap-2">
                 <img
-              src="./src/assets/logo.svg"
+              src="/images/logo.svg"
               alt="Real Trust Logo"
               className="w-40 h-10  object-contain brightness-0 invert"
             />
@@ -613,7 +613,7 @@ const LandingPage = () => {
                 className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-gray-900 hover:bg-blue-400 hover:text-white transition"
               >
                  <img
-                src="./src/assets/Twitter.svg"
+                src="/images/Twitter.svg"
                 >
                 </img>
               </a>
@@ -622,7 +622,7 @@ const LandingPage = () => {
                 className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-gray-900 hover:bg-pink-500 hover:text-white transition"
               >
                  <img
-                src="./src/assets/Instagram.svg"
+                src="/images/Instagram.svg"
                 >
                 </img>
               </a>
@@ -631,7 +631,7 @@ const LandingPage = () => {
                 className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-gray-900 hover:bg-blue-600 hover:text-white transition"
               >
                  <img
-                src="./src/assets/Facebook.svg"
+                src="/images/Facebook.svg"
                 >
                 </img>
               </a>
@@ -640,7 +640,7 @@ const LandingPage = () => {
                 className="w-10 h-10 bg-white rounded-full flex items-center justify-center  hover:bg-blue-600 transition"
               >
                  <img
-                src="./src/assets/Linkedin.svg"
+                src="/images/Linkedin.svg"
                 >
                 </img>
               </a>
